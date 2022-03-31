@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "loader.css";
+
+.alert-fixed {
+    position:fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 1051;
+}
+
+.required:after {
+    content: " * ";
+    color: #f00;
+}
+
+textarea {
+    resize: none;
+    height: 160px;
+}

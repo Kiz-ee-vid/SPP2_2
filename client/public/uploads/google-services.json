@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "230795881524",
+    "project_id": "greenapp-ce3c5",
+    "storage_bucket": "greenapp-ce3c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230795881524:android:b676a3b3223d5e25d66e61",
+        "android_client_info": {
+          "package_name": "com.example.online_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230795881524-6ehe2cj6po5lr7d2u34c8bli0r3g496t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgNdGQ0gzgVSJ97ElL2OXtf953CHoYtqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230795881524-6ehe2cj6po5lr7d2u34c8bli0r3g496t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "230795881524-rdbsnmr37v2mn05jtvdp18rbsip6as2o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ivan.budovich.iTechArtProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

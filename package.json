@@ -1,0 +1,50 @@
+{
+  "name": "1.todo",
+  "version": "1.0.0",
+  "description": "todo app with mongoDB & TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "server": "tsc && node dist/app.js",
+    "server_dev": "nodemon --config nodemon.json src/app.ts",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server_dev\" \"npm run client\"",
+    "prod": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "TypeScript",
+    "React"
+  ],
+  "author": "Ulas Kastsiukovich <ulas.kastsiukovich@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "config": "^3.3.7",
+    "date-fns": "^2.28.0",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "nanoid": "^3.3.1",
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/config": "^0.0.41",
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.178",
+    "@types/mongoose": "^5.11.97",
+    "@types/multer": "^1.4.7",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^17.0.21",
+    "@types/pino": "^7.0.5",
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "tslint": "^5.12.1",
+    "typescript": "^4.5.5"
+  }
+}

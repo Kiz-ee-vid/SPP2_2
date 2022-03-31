@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "src"
+  ],
+  "rulesDirectory": []
+}
